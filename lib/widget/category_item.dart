@@ -3,8 +3,8 @@ import 'package:flutter/src/widgets/framework.dart';
 
 import 'package:flutter/material.dart';
 
-import './models/category.dart';
-import 'presentations/category_meal_screen.dart';
+import '../models/category.dart';
+import '../screens/category_meal_screen.dart';
 
 class CategoryItem extends StatelessWidget {
   final String title;
@@ -14,7 +14,7 @@ class CategoryItem extends StatelessWidget {
 
   void selectCategory(BuildContext ctx) {
     Navigator.of(ctx).pushNamed(
-      '/category-meals',
+      CategoryMealScreen.routeName,
       arguments: {'id': id, 'title': title},
     );
   }

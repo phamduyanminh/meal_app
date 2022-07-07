@@ -81,15 +81,15 @@ flutter:
           weight: 700
         - asset: assets/fonts/Raleway-Black.ttf
           weight: 900
-    - family: RobotoCondensed
-      fonts:
-        - asset: assets/fonts/RobotoCondensed.ttf
-        - asset: assets/fonts/RobotoCondensed-Bold.ttf
-          weight: 700
-        - asset: assets/fonts/RobotoCondensed-Light.ttf
-          weight: 300
-        - asset: assets/fonts/RobotoCondensed-Italic.ttf
-          style: italic
+    # - family: RobotoCondensed
+    #   fonts:
+    #     - asset: assets/fonts/RobotoCondensed.ttf
+    #     - asset: assets/fonts/RobotoCondensed-Bold.ttf
+    #       weight: 700
+    #     - asset: assets/fonts/RobotoCondensed-Light.ttf
+    #       weight: 300
+    #     - asset: assets/fonts/RobotoCondensed-Italic.ttf
+    #       style: italic
   
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
